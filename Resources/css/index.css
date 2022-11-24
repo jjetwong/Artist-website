@@ -1,5 +1,6 @@
 body{
     font-family: 'Inter', sans-serif;
+    color: #31393c;
 }
 
 #header{
@@ -22,6 +23,15 @@ body{
 #description{
     text-align: center;
     margin: 150px;
+}
+
+#description a {
+  text-decoration: none;
+  color: rgb(55, 108, 253);
+}
+
+#description a:hover {
+  text-decoration: underline;
 }
 
 #imageContainer {
@@ -141,4 +151,8 @@ body{
   }
   #links a:nth-of-type(6):before {
   content:'\f1cb';
+  }
+
+  #footer {
+    text-align: center;
   }
